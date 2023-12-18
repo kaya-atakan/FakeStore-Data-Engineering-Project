@@ -1,0 +1,21 @@
+{
+    
+    "python.pythonPath": "./.dbtenv/Scripts/python.exe",
+
+    "files.associations": {
+        
+        "**/jaffle_shop/**/*.sql": "jinja-sql", 
+        "*.sql": "jinja-sql", 
+    
+        
+        "**/target/**": "",
+        "**/<dbt-project-dir>/**/*.yaml": "jinja-yaml",
+         "**/<dbt-project-dir>/**/*.yml": "jinja-yaml",
+        "**/<dbt-project-dir>/**/docs/**/*.md": "jinja-md",
+    
+        
+        "editor.quickSuggestions": {
+        "strings": true
+        }
+    }
+}

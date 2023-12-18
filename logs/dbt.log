@@ -1,0 +1,30 @@
+[0m15:09:33.002153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB92CF550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB8AD8D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB8AD8B20>]}
+
+
+============================== 15:09:33.002153 | 59ec3365-e2e0-4faf-a911-2e7b6209c055 ==============================
+[0m15:09:33.002153 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:09:33.002153 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m15:09:33.029434 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Administrator/.dbt')}
+[0m15:09:33.037433 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:10:27.528515 [debug] [MainThread]: Starter project path: C:\Users\Administrator\Desktop\airflow-airbyte-docker\.dbtenv\lib\site-packages\dbt\include\starter_project
+[0m15:10:27.667589 [info ] [MainThread]: 
+Your new dbt project "FakeStore" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:10:27.667589 [info ] [MainThread]: Setting up your profile.
+[0m15:12:04.501404 [info ] [MainThread]: Profile FakeStore written to C:\Users\Administrator\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:12:04.509409 [debug] [MainThread]: Command `dbt init` succeeded at 15:12:04.509409 after 151.60 seconds
+[0m15:12:04.509409 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB92CF550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB513B790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002EDB8AEAEE0>]}
+[0m15:12:04.517351 [debug] [MainThread]: Flushing usage events

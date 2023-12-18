@@ -1,0 +1,8 @@
+.dbtenv/
+data/.env
+airflow/.env
+airflow/logs
+airflow/plugins
+dbt/target
+dbt/logs
+dbt/dbt_packages

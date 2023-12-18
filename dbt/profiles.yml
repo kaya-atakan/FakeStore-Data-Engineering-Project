@@ -1,0 +1,12 @@
+FakeStore:
+    target: dev
+    outputs:
+        dev:
+            type: postgres
+            host: host.docker.internal
+            user: postgres
+            password: 'your password'
+            port: 5432
+            dbname: FakeStore
+            schema: airbyte
+            threads: 4
